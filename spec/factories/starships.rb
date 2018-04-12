@@ -1,5 +1,5 @@
 FactoryBot.define do
   factory :starship do
-    name "MyString"
+    email FFaker::Internet.email
   end
 end
