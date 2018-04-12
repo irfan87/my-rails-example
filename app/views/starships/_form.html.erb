@@ -27,6 +27,12 @@
       </li>
     <% end %>
   </ul>
+  Enter your email to receive the awesome stuff!
+  <div class="field">
+    <%= form.label :email %>
+    <br>
+    <%= form.text_field :email %>
+  </div>
 
   <div class="actions">
     <%= form.submit %>
